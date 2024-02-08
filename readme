@@ -1,0 +1,6 @@
+streamlit run app_test.py
+
+pyinstaller --onefile --hidden-import=streamlit app.py
+
+pyinstaller --onefile --clean app.py
+
